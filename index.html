@@ -29,7 +29,8 @@
         theme: {
           extend: {
             colors: {
-              clifford: "#da373d",
+              "gradient-start": "#FF8938",
+              "gradient-end": "#F00",
             },
           },
         },
@@ -178,7 +179,7 @@
       </section>
       <!-- Super Client Section -->
       <section
-        class="flex flex-col lg:flex-row gap-12 my-24 rounded-xl bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24"
+        class="flex flex-col lg:flex-row gap-12 my-24 rounded-xl bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24"
       >
         <div class="flex lg:pr-28 items-center">
           <div class="space-y-5">
@@ -307,6 +308,63 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer
+      class="bg-gradient-to-r from-[#FF00001A] to-[#FF89381A] text-base-content px-48 py-10"
+    >
+      <div class="flex justify-between my-24">
+        <img src="images/cup.png" alt="" />
+        <p>
+          <span> Ready to get started? </span>
+          <button class="btn btn-primary">Get Started</button>
+        </p>
+      </div>
+      <div class="footer">
+        <nav>
+          <h6 class="footer-title">Services</h6>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Company</h6>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Legal</h6>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 class="footer-title">Newsletter</h6>
+          <fieldset class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your email address</span>
+            </label>
+            <div class="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                class="py-4 bg-transparent border-b-2 border-black outline-none"
+              />
+              <button
+                class="btn bg-gradient-to-r from-gradient-start to-gradient-end rounded-full"
+              >
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer footer-center mt-10 text-base-content p-4">
+        <aside>
+          <p>Copyright © 2024 - All right reserved by Nafiu Coding Solution</p>
+        </aside>
+      </div>
+    </footer>
   </body>
 </html>
