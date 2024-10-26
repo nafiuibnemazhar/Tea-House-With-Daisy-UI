@@ -1,3 +1,3 @@
 /*** Lecture Notes ***/
 (Milestone - 3) >> (Module 3) >>>>>
->>>> 14-5 Implement grid layout with gradient - Full
+>>>> 14-7 Relative and absolute positioning of review - Full
